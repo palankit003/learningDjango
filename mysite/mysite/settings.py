@@ -20,7 +20,7 @@ ALLOWED_HOSTS = ['192.168.1.9','localhost']
 # Application definition
 
 INSTALLED_APPS = [
-    "polls.apps.PollsConfig"
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -95,7 +95,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC+05:30'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
